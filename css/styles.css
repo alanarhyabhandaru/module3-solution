@@ -1,0 +1,63 @@
+.navbar{
+background-color: #808080;
+}
+
+.navbar-brand{
+font-family: "Crafty Girls";
+font-size: 20px;
+background-color: #808080;
+color: white;
+}
+
+.block{
+padding-bottom: 10px;
+}
+
+.item{
+font-size: 20px;
+font-weight: bold;
+color: white;
+}
+
+body{
+font-family: "Crafty Girls";
+}
+
+
+#main-content h2 {
+    font-size: 2.9em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#main-section-1, #main-section-2, #main-section-3 {	
+    background-color: #808080;
+    color: white;
+    padding: 30px;
+}
+
+@media (min-width: 1199.98px) {
+
+#main-content {
+    width: 100%;
+    margin-bottom: 40px;
+}
+}
+
+@media (max-width: 767.98px)
+
+{
+	#main-content{
+	width:66.67%;
+	margin-bottom:40px;
+	}
+}
+
+
